@@ -7,15 +7,19 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-
+  array.reverse
 end
 
 def using_first(array)
-
+  array.first
+  # OR!
+  #array[0]
 end
 
 def using_last(array)
-
+  array.last
+  # OR!
+  #array[-1]
 end
 
 def using_size(array)
